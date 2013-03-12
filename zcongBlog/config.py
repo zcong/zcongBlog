@@ -11,19 +11,19 @@ GLOBAL_SETTINGS={
     "Mode":"develop", #develop test deploy
     "Log_Prefix":"log/",
     "DB":{
-        'develop':{
+        'Develop':{
             'Host':'127.0.0.1:3307',
-            'Name':'mitxiong',
-            'User':'mitxiong',
-            'Psw':'mitxiong',
+            'Name':'zcong',
+            'User':'zcong',
+            'Psw':'zcong',
         },
-        'test':{
+        'Test':{
             'Host':'',
             'Name':'',
             'User':'',
             'Psw':'',
         },
-        'deploy':{
+        'Deploy':{
             'Host':'',
             'Name':'',
             'User':'',

@@ -6,10 +6,10 @@ class BasicHandler(tornado.web.RequestHandler):
     def initialize(self):
         self._templateLoader=tornado.template.Loader(self.get_template_path())
         self._DynamicValue={
-            'title':'米堂兄|宅男腐女怪蜀黍のACG生活宅基地',
+            'title':'标题',
             'header':'',
             'error_code':500,
-            'domain':'www.mitxiong.com',
+            'domain':'www.zcong.info',
             'currentUrl':self.request.uri
         }
 
